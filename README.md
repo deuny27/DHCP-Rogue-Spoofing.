@@ -53,28 +53,28 @@ Topología Utilizada (PNETLab)
 
 # En la topología se utilizaron las siguientes conexiones:
 
-🔵 Atacante (Linux con Scapy)
+- Atacante (Linux con Scapy)
 e0 → SW2 e0/1
 e1 → SW1 e0/2
 
-🔵 SW2
+- SW2
 e0/1 → Linux e0
 e0/0 → SW1 e0/1
 e0/2 → VPC1 eth0
 
-🔵 SW1
+- SW1
 e0/2 → Linux e1
 e0/1 → SW2 e0/0
 e0/0 → R1 e0/1
 e1/0 → VPC2 eth0
 
-🔵 R1 (Servidor DHCP legítimo)
+- R1 (Servidor DHCP legítimo)
 e0/1 → SW1 e0/0
 
-🔵 VPC1 (Víctima 1)
+- VPC1 (Víctima 1)
 eth0 → SW2 e0/2
 
-🔵 VPC2 (Víctima 2)
+- VPC2 (Víctima 2)
 eth0 → SW1 e1/0
 
 
