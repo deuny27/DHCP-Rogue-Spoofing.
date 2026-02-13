@@ -24,23 +24,23 @@ Comprometer la confidencialidad de la información
 
 # Tecnologías Utilizadas
 
-Python 3
+- Python 3
 
-Scapy Project
+- Scapy Project
 
-PNETLab
+- PNETLab
 
-Linux
+- Linux
 
 # El servidor DHCP malicioso ofrece:
 
-Dirección IP falsa
+- Dirección IP falsa
 
-Gateway controlado por el atacante
+- Gateway controlado por el atacante
 
-DNS personalizado
+- DNS personalizado
 
-Tiempo de concesión manipulado
+- Tiempo de concesión manipulado
 
 
 # Video del Ataque
@@ -127,18 +127,18 @@ Lease time
 
 # Medidas de Mitigación
 
-Para prevenir ataques DHCP Rogue se recomienda:
+- Para prevenir ataques DHCP Rogue se recomienda:
 
-Activar DHCP Snooping en switches gestionables
+- Activar DHCP Snooping en switches gestionables
 
-Marcar puertos confiables
+- Marcar puertos confiables
 
-Limitar servidores DHCP autorizados
+- Limitar servidores DHCP autorizados
 
-Implementar Port Security
+- Implementar Port Security
 
-Segmentar VLANs
+- Segmentar VLANs
 
-Monitorear tráfico DHCP sospechoso
+- Monitorear tráfico DHCP sospechoso
 
-Implementar IDS/IPS
+- Implementar IDS/IPS
