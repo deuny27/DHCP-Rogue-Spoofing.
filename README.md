@@ -97,7 +97,7 @@ IP_POOL_END = "192.25.45.200"
 
 # Funcionamiento del Script
 
-El script realiza las siguientes acciones:
+- El script realiza las siguientes acciones:
 
 Escucha tráfico DHCP en los puertos UDP 67 y 68.
 
@@ -107,9 +107,9 @@ DHCP Discover
 
 DHCP Request
 
-Genera una dirección IP dentro del pool configurado.
+- Genera una dirección IP dentro del pool configurado.
 
-Construye un paquete DHCPOFFER con:
+- Construye un paquete DHCPOFFER con:
 
 IP ofrecida
 
@@ -121,9 +121,9 @@ Dominio
 
 Lease time
 
-Envía la respuesta a la MAC de la víctima.
+- Envía la respuesta a la MAC de la víctima.
 
-Si la víctima acepta la oferta, su tráfico será redirigido al atacante.
+- Si la víctima acepta la oferta, su tráfico será redirigido al atacante.
 
 # Medidas de Mitigación
 
