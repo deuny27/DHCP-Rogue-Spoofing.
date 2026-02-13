@@ -22,7 +22,7 @@ Permitir ataques Man-in-the-Middle (MITM)
 Comprometer la confidencialidad de la información
 
 
-# Tecnologías Utilizadas
+# Herramientas Utilizadas
 
 - Python 3
 
